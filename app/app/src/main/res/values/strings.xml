@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Sign Sense</string>
+    <string name="help_dialog_title">Feature Information</string>
+    <string name="help_message">
+        Camera Footage Area\n
+        This is the live display from your mobile device\'s camera. It\'s always on, actively scanning the road for traffic signs.\n\n
+
+        Bounding Boxes and Labels\n
+        When the app recognizes a traffic sign, it draws a bounding box around the sign within the camera footage area. Each bounding box is paired with a label indicating its type. These visual cues help you identify and understand the traffic signs detected by the app in real-time.\n\n
+
+        Top Three Recognized Traffic Signs\n
+        On the left side of the screen, the app displays the top three detected traffic signs along with a label indicating its type. This lets you quickly glance at the type of sign recognized without looking away from the road.\n\n
+
+        Inference Time\n
+        Found at the top-left corner of the screen. The app\'s response time, indicated by the inference time in milliseconds, shows the speed at which the app is processing and recognizing the traffic signs.\n\n
+        Included Traffic Signs:\n
+        APP SIGN NAMES — LTO SIGN NAMES\n
+        Limit 30       — Maximum Speed Restriction 30\n
+        Limit 50       — Maximum Speed Restriction 50\n
+        Limit 60       — Maximum Speed Restriction 60\n
+        Limit 80       — Maximum Speed Restriction 80\n
+        Stop           — Stop Sign\n
+        Curve left     — Curve (left)\n
+        Curve right    — Curve (right)\n
+        Slippery       — Slippery When Wet\n
+        Traffic lights — Traffic Lights Ahead\n
+        Keep right     — Keep Right\n
+        Keep left      — Keep Left\n
+        No left turn   — No Left Turn\n
+        No right turn  — No Right Turn\n
+        No U-turn      — No U-Turn</string>
+    <string name="ok">OK</string>
+    <string name="help_button_description">Tap for help</string>
+</resources>

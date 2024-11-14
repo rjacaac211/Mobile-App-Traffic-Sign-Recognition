@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/camera_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/view_finder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginVertical="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="16:9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:scaleType="fillStart" />
+
+    <com.example.trafficsignrecognition.OverlayView
+        android:id="@+id/overlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:translationZ="5dp"
+        android:layout_marginVertical="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="16:9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <LinearLayout
+        android:id="@+id/signsContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toStartOf="@id/view_finder"
+        app:layout_constraintBottom_toBottomOf="@id/view_finder">
+
+        <ImageView
+            android:id="@+id/signImage1"
+            android:layout_width="110dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"/>
+
+        <ImageView
+            android:id="@+id/signImage2"
+            android:layout_width="110dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"/>
+
+        <ImageView
+            android:id="@+id/signImage3"
+            android:layout_width="110dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+
+    <TextView
+        tools:text="100ms"
+        android:textColor="@color/black"
+        android:id="@+id/inferenceTime"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/helpButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/help_button_description"
+        android:scaleType="centerInside"
+        android:background="@android:color/white"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        app:srcCompat="@drawable/info_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
