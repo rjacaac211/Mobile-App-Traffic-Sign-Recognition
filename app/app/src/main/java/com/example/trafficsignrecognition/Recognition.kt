@@ -159,8 +159,8 @@ class Recognition(
             // Resize the cropped bitmap to 30x30 for the classification model
             val resizedCroppedBitmap = Bitmap.createScaledBitmap(
                 croppedBitmap,
-                30, // Target width
-                30, // Target height
+                50, // Target width
+                50, // Target height
                 true // Filter for better quality
             )
 
@@ -181,10 +181,10 @@ class Recognition(
 
     private fun classifySign(croppedBitmap: Bitmap): Pair<String, Int> {
         val tensorImage = TensorImage(DataType.FLOAT32)
-        tensorImage.load(Bitmap.createScaledBitmap(croppedBitmap, 30, 30, true))
+        tensorImage.load(Bitmap.createScaledBitmap(croppedBitmap, 50, 50, true))
         val processedImage = imageProcessor.process(tensorImage)
 
-        val inputFeature0 = TensorBuffer.createFixedSize(intArrayOf(1, 30, 30, 3), DataType.FLOAT32)
+        val inputFeature0 = TensorBuffer.createFixedSize(intArrayOf(1, 50, 50, 3), DataType.FLOAT32)
         inputFeature0.loadBuffer(processedImage.buffer)
 
         val outputFeature0 = TensorBuffer.createFixedSize(intArrayOf(1, numberOfClasses), DataType.FLOAT32)
