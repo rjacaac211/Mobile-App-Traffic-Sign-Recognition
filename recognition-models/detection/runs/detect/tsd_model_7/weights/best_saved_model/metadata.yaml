@@ -1,0 +1,13 @@
+description: Ultralytics best model trained on /content/Traffic-Sign-Detection-15/data.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2024-08-22T03:17:36.601217'
+version: 8.0.196
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: sign
