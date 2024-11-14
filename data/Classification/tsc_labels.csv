@@ -1,0 +1,16 @@
+ClassId,Name
+0,Limit 30
+1,Limit 50
+2,Limit 60
+3,Limit 80
+4,Stop
+5,No Entry
+6,Curve left
+7,Curve right
+8,Slippery
+9,Traffic lights
+10,Keep right
+11,Keep left
+12,No left turn
+13,No right turn
+14,No U-turn

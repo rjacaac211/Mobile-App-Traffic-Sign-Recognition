@@ -1,0 +1,15 @@
+Limit 30
+Limit 50
+Limit 60
+Limit 80
+Stop
+No Entry
+Curve left
+Curve right
+Slippery
+Traffic lights
+Keep right
+Keep left
+No left turn
+No right turn
+No U-turn
