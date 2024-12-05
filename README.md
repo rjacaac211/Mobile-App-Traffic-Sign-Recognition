@@ -53,7 +53,7 @@ To set up and run this project locally, follow these steps:
    - Launch the app on the connected Android device or emulator.
    - Allow necessary permissions (e.g., camera access) when prompted.
 
-2. **Real-Time Traffic Sign Detection**:
+2. **Real-Time Traffic Sign Recognition**:
    - Point the device's camera toward a road or traffic signs.
    - The app will detect traffic signs in real-time and display the results on-screen, including labels, bounding boxes, and audio feedback.
 
