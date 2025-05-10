@@ -1,4 +1,13 @@
+<div align="center">
+
+<a href="https://github.com/rjacaac211/Mobile-App-Traffic-Sign-Recognition">
+    <img src="./github/assets/Sign-sense-logo.png" alt="Sign Sense logo" title="Sign Sense logo" width="80"/>
+</a>
+
 # Sign Sense - Real-Time Mobile App Traffic Sign Recognition
+
+[![License: Apache-2.0](https://img.shields.io/github/license/rjacaac211/Mobile-App-Traffic-Sign-Recognition?labelColor=27303D&color=0877d2)](/LICENSE)
+
 
 **Sign Sense** is a real-time mobile application for traffic sign recognition developed to enhance road safety. By leveraging Convolutional Neural Networks (CNNs) and TensorFlow Lite, the app detects and classifies traffic signs in real-time using Android devices. 
 
