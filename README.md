@@ -9,6 +9,7 @@
 [![License: Apache-2.0](https://img.shields.io/github/license/rjacaac211/Mobile-App-Traffic-Sign-Recognition?labelColor=27303D&color=0877d2)](/LICENSE)
 
 <div align="left">
+    
 **Sign Sense** is a real-time mobile application for traffic sign recognition developed to enhance road safety. By leveraging Convolutional Neural Networks (CNNs) and TensorFlow Lite, the app detects and classifies traffic signs in real-time using Android devices. 
 
 The system is designed to provide an accessible and cost-effective alternative to high-end Advanced Driver Assistance Systems (ADAS), specifically tailored to recognize traffic signs in the Philippines. It aims to increase driver awareness, reduce traffic violations, and contribute to safer roadways.
