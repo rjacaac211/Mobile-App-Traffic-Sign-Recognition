@@ -1,0 +1,17 @@
+# Gradle-specific files
+.gradle/
+gradle/
+**/build/
+!**/src/**/build/
+
+# Gradle Wrapper files
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Cache and temporary files
+gradle-task-name-cache
+*.lock
+
+# OS-specific files
+DS_Store
+Thumbs.db
