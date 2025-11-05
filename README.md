@@ -100,7 +100,7 @@ To set up and run this project locally, follow these steps:
 You may use the following BibTeX entry for citation.
 
     @article{Gangoso2025TrafficSignRecognition,
-        author    = {Gangoso, Earl and Aca-ac, John and Sarabia, Mark},
+        author    = {Gangoso, Earl Peter and Aca-ac, Rolando John and Sarabia, Patrick Zane},
         title     = {Real-Time Mobile App Traffic Sign Recognition with YOLOv10 and CNN for Driving Education},
         journal   = {International Journal of Computer Science, Information Technology and Control Engineering (IJCSITCE)},
         volume    = {12},
